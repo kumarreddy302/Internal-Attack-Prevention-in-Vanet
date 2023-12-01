@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-18 09:21:21 by Eclipse SUMO GUI Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\kumar_reddy\Sumo\2023-11-18-09-19-22\osm.net.xml.gz"/>
+        <route-files value="C:\Users\kumar_reddy\Sumo\2023-11-18-09-19-22\osm.motorcycle.trips.xml,C:\Users\kumar_reddy\Sumo\2023-11-18-09-19-22\osm.passenger.trips.xml"/>
+        <additional-files value="C:\Users\kumar_reddy\Sumo\2023-11-18-09-19-22\osm.poly.xml.gz"/>
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="C:\Users\kumar_reddy\Sumo\2023-11-18-09-19-22\osm.view.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<snapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/state_file.xsd" version="1.18.0" time="115.00" type="micro">
+    <route id="!motorcycle4" state="0" edges="120289291#2 -1221717586"/>
+    <route id="!motorcycle5" state="0" edges="-409450962#1 1221717587#0"/>
+    <route id="!motorcycle6" state="0" edges="1221717586 -409450962#0"/>
+    <route id="!motorcycle7" state="0" edges="409450962#0 -409450924#0"/>
+    <route id="!veh2!var#1" state="0" edges="120289291#0 120289291#1 120289291#2 120289291#3 847037891#1 -409703688#1 429824137"/>
+    <route id="!veh5" state="0" edges="-409450955 -409450924#1"/>
+    <route id="!veh6" state="0" edges="515123106#0 515123105"/>
+    <route id="!veh7" state="0" edges="409703688#0 847037891#3"/>
+    <delay number="1" begin="11" end="3" depart="2.00" time="137.00"/>
+    <vType id="motorcycle_motorcycle" vClass="motorcycle"/>
+    <vType id="veh_passenger" vClass="passenger"/>
+    <vehicle id="motorcycle4" type="motorcycle_motorcycle" depart="134.86" departLane="best" route="!motorcycle4" distance="0 0" speedFactor="0.9383" reroute="1" state="262150 9223372036854775807 0 -1.00 0 0.00 0 0 0" pos="0.00 0.00 0.00" speed="0.00 0.00" angle="90.00" posLat="0.00" waitingTime="100000 0">
+        <device id="routing_motorcycle4" state="0"/>
+    </vehicle>
+    <vehicle id="motorcycle5" type="motorcycle_motorcycle" depart="168.57" departLane="best" route="!motorcycle5" distance="0 0" speedFactor="1.0303" reroute="1" state="262150 9223372036854775807 0 -1.00 0 0.00 0 0 0" pos="0.00 0.00 0.00" speed="0.00 0.00" angle="90.00" posLat="0.00" waitingTime="100000 0">
+        <device id="routing_motorcycle5" state="0"/>
+    </vehicle>
+    <vehicle id="motorcycle6" type="motorcycle_motorcycle" depart="202.29" departLane="best" route="!motorcycle6" distance="0 0" speedFactor="0.8310" reroute="1" state="262150 9223372036854775807 0 -1.00 0 0.00 0 0 0" pos="0.00 0.00 0.00" speed="0.00 0.00" angle="90.00" posLat="0.00" waitingTime="100000 0">
+        <device id="routing_motorcycle6" state="0"/>
+    </vehicle>
+    <vehicle id="motorcycle7" type="motorcycle_motorcycle" depart="236.00" departLane="best" route="!motorcycle7" distance="0 0" speedFactor="1.0458" reroute="1" state="262150 9223372036854775807 0 -1.00 0 0.00 0 0 0" pos="0.00 0.00 0.00" speed="0.00 0.00" angle="90.00" posLat="0.00" waitingTime="100000 0">
+        <device id="routing_motorcycle7" state="0"/>
+    </vehicle>
+    <vehicle id="veh2" type="veh_passenger" depart="67.43" departLane="best" departSpeed="max" route="!veh2!var#1" distance="926.16 1" speedFactor="0.8860" reroute="1" state="262166 68000 3 5.10 0 5.73 114000 0 0" pos="19.97 14.97 9.02" speed="9.02 6.42" angle="231.93" posLat="0.00" waitingTime="100000 0">
+        <device id="tripinfo_veh2" state="120289291#0_0 0 24.6131 921.06 0 0 0 0 -1"/>
+        <device id="routing_veh2" state="0"/>
+    </vehicle>
+    <vehicle id="veh5" type="veh_passenger" depart="168.57" departLane="best" route="!veh5" distance="0 0" speedFactor="0.9379" reroute="1" state="262150 9223372036854775807 0 -1.00 0 0.00 0 0 0" pos="0.00 0.00 0.00" speed="0.00 0.00" angle="90.00" posLat="0.00" waitingTime="100000 0">
+        <device id="routing_veh5" state="0"/>
+    </vehicle>
+    <vehicle id="veh6" type="veh_passenger" depart="202.29" departLane="best" departSpeed="max" route="!veh6" distance="0 0" speedFactor="0.8569" reroute="1" state="262166 9223372036854775807 0 -1.00 0 0.00 0 0 0" pos="0.00 0.00 0.00" speed="0.00 0.00" angle="90.00" posLat="0.00" waitingTime="100000 0">
+        <device id="routing_veh6" state="0"/>
+    </vehicle>
+    <vehicle id="veh7" type="veh_passenger" depart="236.00" departLane="best" route="!veh7" distance="0 0" speedFactor="1.0907" reroute="1" state="262150 9223372036854775807 0 -1.00 0 0.00 0 0 0" pos="0.00 0.00 0.00" speed="0.00 0.00" angle="90.00" posLat="0.00" waitingTime="100000 0">
+        <device id="routing_veh7" state="0"/>
+    </vehicle>
+    <lane id="120289291#3_0">
+        <vehicles value="veh2"/>
+    </lane>
+</snapshot>
