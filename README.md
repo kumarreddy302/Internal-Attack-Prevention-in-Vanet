@@ -11,4 +11,11 @@ Here are four photos:
 
 To run the program, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository: https://github.com/kumarreddy302/Internal-Attack-Prevention-in-Vanet.git
+
+
+2. Navigate to the project directory: cd Internal-Attack-Prevention-in-Vanet
+
+3. Run the program: python main.py
+
+
