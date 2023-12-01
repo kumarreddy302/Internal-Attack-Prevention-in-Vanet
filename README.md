@@ -12,7 +12,7 @@ Here are four photos:
 To run the program, follow these steps:
 
 1. Clone the repository:
-   - ```git clone https://github.com/kumarreddy302/Internal-Attack-Prevention-in-Vanet.git```
+    - ```git clone https://github.com/kumarreddy302/Internal-Attack-Prevention-in-Vanet.git```
 
 
 2. Navigate to the project directory: 
@@ -20,5 +20,5 @@ To run the program, follow these steps:
   
 
 3. Run the program: 
-- ```python main.py```
+    - ```python main.py```
 
