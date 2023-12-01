@@ -22,3 +22,10 @@ To run the program, follow these steps:
 3. Run the program: 
     - ```python main.py```
 
+### Contributions
+
+Contributions to this project are not currently accepted.
+
+Contact:
+    Email: kovvurisai750@gmail.com
+    WhatsApp: +91 9550763666
